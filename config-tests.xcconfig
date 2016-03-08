@@ -1,0 +1,10 @@
+//
+//  config-tests.xcconfig
+//
+//  Created by Károly Lőrentey on 2016-03-08.
+//  Copyright © 2016 Károly Lőrentey.
+//
+
+PRODUCT_NAME = $(PROJECT_NAME)-Test
+PRODUCT_BUNDLE_IDENTIFIER = $(BUNDLE_IDENTIFIER_BASE).Tests
+INFOPLIST_FILE = Tests/Info.plist
