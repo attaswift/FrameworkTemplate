@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BBB55ABD1C8F80020050DDA9 /* Xyzzy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB55AB21C8F80020050DDA9 /* Xyzzy.framework */; };
+		BBB55ABD1C8F80020050DDA9 /* FrameworkTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB55AB21C8F80020050DDA9 /* FrameworkTemplate.framework */; };
 		BBB55AC21C8F80020050DDA9 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB55AC11C8F80020050DDA9 /* Tests.swift */; };
-		BBB55ADE1C8F88F20050DDA9 /* Xyzzy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB55AD41C8F88F20050DDA9 /* Xyzzy.framework */; };
-		BBB55B081C8F8CBC0050DDA9 /* Xyzzy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB55AFE1C8F8CBB0050DDA9 /* Xyzzy.framework */; };
+		BBB55ADE1C8F88F20050DDA9 /* FrameworkTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB55AD41C8F88F20050DDA9 /* FrameworkTemplate.framework */; };
+		BBB55B081C8F8CBC0050DDA9 /* FrameworkTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB55AFE1C8F8CBB0050DDA9 /* FrameworkTemplate.framework */; };
 		BBB55B151C8F8FE70050DDA9 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB55AC11C8F80020050DDA9 /* Tests.swift */; };
 		BBB55B161C8F8FE80050DDA9 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB55AC11C8F80020050DDA9 /* Tests.swift */; };
 		BBB55B181C8F901A0050DDA9 /* Implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB55B171C8F901A0050DDA9 /* Implementation.swift */; };
@@ -25,38 +25,38 @@
 			containerPortal = BBB55AA91C8F80020050DDA9 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BBB55AB11C8F80020050DDA9;
-			remoteInfo = Xyzzy;
+			remoteInfo = FrameworkTemplate;
 		};
 		BBB55ADF1C8F88F20050DDA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BBB55AA91C8F80020050DDA9 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BBB55AD31C8F88F20050DDA9;
-			remoteInfo = Xyzzy;
+			remoteInfo = FrameworkTemplate;
 		};
 		BBB55B091C8F8CBC0050DDA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BBB55AA91C8F80020050DDA9 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BBB55AFD1C8F8CBB0050DDA9;
-			remoteInfo = Xyzzy;
+			remoteInfo = FrameworkTemplate;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BBB55AB21C8F80020050DDA9 /* Xyzzy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Xyzzy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB55AB21C8F80020050DDA9 /* FrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB55AB71C8F80020050DDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBB55ABC1C8F80020050DDA9 /* Xyzzy-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xyzzy-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB55ABC1C8F80020050DDA9 /* FrameworkTemplate-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FrameworkTemplate-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB55AC11C8F80020050DDA9 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		BBB55AC31C8F80020050DDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBB55ACC1C8F80660050DDA9 /* config-shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "config-shared.xcconfig"; sourceTree = "<group>"; };
 		BBB55ACD1C8F80740050DDA9 /* config-framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "config-framework.xcconfig"; sourceTree = "<group>"; };
 		BBB55ACE1C8F86670050DDA9 /* config-tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "config-tests.xcconfig"; sourceTree = "<group>"; };
-		BBB55AD41C8F88F20050DDA9 /* Xyzzy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Xyzzy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBB55ADD1C8F88F20050DDA9 /* Xyzzy-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xyzzy-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBB55AF11C8F8BE00050DDA9 /* Xyzzy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Xyzzy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBB55AFE1C8F8CBB0050DDA9 /* Xyzzy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Xyzzy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBB55B071C8F8CBB0050DDA9 /* Xyzzy-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xyzzy-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB55AD41C8F88F20050DDA9 /* FrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB55ADD1C8F88F20050DDA9 /* FrameworkTemplate-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FrameworkTemplate-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB55AF11C8F8BE00050DDA9 /* FrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB55AFE1C8F8CBB0050DDA9 /* FrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB55B071C8F8CBB0050DDA9 /* FrameworkTemplate-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FrameworkTemplate-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB55B171C8F901A0050DDA9 /* Implementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Implementation.swift; sourceTree = "<group>"; };
 		BBB55B1C1C8F90F60050DDA9 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		BBB55B1D1C8F9E850050DDA9 /* LICENCE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENCE.md; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBB55ABD1C8F80020050DDA9 /* Xyzzy.framework in Frameworks */,
+				BBB55ABD1C8F80020050DDA9 /* FrameworkTemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBB55ADE1C8F88F20050DDA9 /* Xyzzy.framework in Frameworks */,
+				BBB55ADE1C8F88F20050DDA9 /* FrameworkTemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBB55B081C8F8CBC0050DDA9 /* Xyzzy.framework in Frameworks */,
+				BBB55B081C8F8CBC0050DDA9 /* FrameworkTemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,13 +137,13 @@
 		BBB55AB31C8F80020050DDA9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BBB55AB21C8F80020050DDA9 /* Xyzzy.framework */,
-				BBB55ABC1C8F80020050DDA9 /* Xyzzy-Test.xctest */,
-				BBB55AD41C8F88F20050DDA9 /* Xyzzy.framework */,
-				BBB55ADD1C8F88F20050DDA9 /* Xyzzy-Test.xctest */,
-				BBB55AF11C8F8BE00050DDA9 /* Xyzzy.framework */,
-				BBB55AFE1C8F8CBB0050DDA9 /* Xyzzy.framework */,
-				BBB55B071C8F8CBB0050DDA9 /* Xyzzy-Test.xctest */,
+				BBB55AB21C8F80020050DDA9 /* FrameworkTemplate.framework */,
+				BBB55ABC1C8F80020050DDA9 /* FrameworkTemplate-Test.xctest */,
+				BBB55AD41C8F88F20050DDA9 /* FrameworkTemplate.framework */,
+				BBB55ADD1C8F88F20050DDA9 /* FrameworkTemplate-Test.xctest */,
+				BBB55AF11C8F8BE00050DDA9 /* FrameworkTemplate.framework */,
+				BBB55AFE1C8F8CBB0050DDA9 /* FrameworkTemplate.framework */,
+				BBB55B071C8F8CBB0050DDA9 /* FrameworkTemplate-Test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -214,8 +214,8 @@
 			dependencies = (
 			);
 			name = iOS;
-			productName = Xyzzy;
-			productReference = BBB55AB21C8F80020050DDA9 /* Xyzzy.framework */;
+			productName = FrameworkTemplate;
+			productReference = BBB55AB21C8F80020050DDA9 /* FrameworkTemplate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BBB55ABB1C8F80020050DDA9 /* iOS Tests */ = {
@@ -232,8 +232,8 @@
 				BBB55ABF1C8F80020050DDA9 /* PBXTargetDependency */,
 			);
 			name = "iOS Tests";
-			productName = XyzzyTests;
-			productReference = BBB55ABC1C8F80020050DDA9 /* Xyzzy-Test.xctest */;
+			productName = FrameworkTemplateTests;
+			productReference = BBB55ABC1C8F80020050DDA9 /* FrameworkTemplate-Test.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		BBB55AD31C8F88F20050DDA9 /* OS X */ = {
@@ -250,8 +250,8 @@
 			dependencies = (
 			);
 			name = "OS X";
-			productName = Xyzzy;
-			productReference = BBB55AD41C8F88F20050DDA9 /* Xyzzy.framework */;
+			productName = FrameworkTemplate;
+			productReference = BBB55AD41C8F88F20050DDA9 /* FrameworkTemplate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BBB55ADC1C8F88F20050DDA9 /* OS X Tests */ = {
@@ -268,8 +268,8 @@
 				BBB55AE01C8F88F20050DDA9 /* PBXTargetDependency */,
 			);
 			name = "OS X Tests";
-			productName = XyzzyTests;
-			productReference = BBB55ADD1C8F88F20050DDA9 /* Xyzzy-Test.xctest */;
+			productName = FrameworkTemplateTests;
+			productReference = BBB55ADD1C8F88F20050DDA9 /* FrameworkTemplate-Test.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		BBB55AF01C8F8BE00050DDA9 /* watchOS */ = {
@@ -286,8 +286,8 @@
 			dependencies = (
 			);
 			name = watchOS;
-			productName = Xyzzy;
-			productReference = BBB55AF11C8F8BE00050DDA9 /* Xyzzy.framework */;
+			productName = FrameworkTemplate;
+			productReference = BBB55AF11C8F8BE00050DDA9 /* FrameworkTemplate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BBB55AFD1C8F8CBB0050DDA9 /* tvOS */ = {
@@ -304,8 +304,8 @@
 			dependencies = (
 			);
 			name = tvOS;
-			productName = Xyzzy;
-			productReference = BBB55AFE1C8F8CBB0050DDA9 /* Xyzzy.framework */;
+			productName = FrameworkTemplate;
+			productReference = BBB55AFE1C8F8CBB0050DDA9 /* FrameworkTemplate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BBB55B061C8F8CBB0050DDA9 /* tvOS Tests */ = {
@@ -322,8 +322,8 @@
 				BBB55B0A1C8F8CBC0050DDA9 /* PBXTargetDependency */,
 			);
 			name = "tvOS Tests";
-			productName = XyzzyTests;
-			productReference = BBB55B071C8F8CBB0050DDA9 /* Xyzzy-Test.xctest */;
+			productName = FrameworkTemplateTests;
+			productReference = BBB55B071C8F8CBB0050DDA9 /* FrameworkTemplate-Test.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -359,7 +359,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BBB55AAC1C8F80020050DDA9 /* Build configuration list for PBXProject "Xyzzy" */;
+			buildConfigurationList = BBB55AAC1C8F80020050DDA9 /* Build configuration list for PBXProject "FrameworkTemplate" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -781,7 +781,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BBB55AAC1C8F80020050DDA9 /* Build configuration list for PBXProject "Xyzzy" */ = {
+		BBB55AAC1C8F80020050DDA9 /* Build configuration list for PBXProject "FrameworkTemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBB55AC41C8F80020050DDA9 /* Debug */,

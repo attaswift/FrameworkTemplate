@@ -10,7 +10,7 @@ if [ $# -ne 1 ]; then
 fi
 
 name="$1"
-pattern="Xyzzy"
+pattern="FrameworkTemplate"
 
 # Rename files and directories whose names contain the pattern.
 while true; do

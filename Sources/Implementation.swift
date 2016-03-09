@@ -1,6 +1,6 @@
 //
 //  Implementation.swift
-//  Xyzzy
+//  FrameworkTemplate
 //
 //  Created by Károly Lőrentey on 2016-03-08.
 //  Copyright © 2016 Károly Lőrentey.

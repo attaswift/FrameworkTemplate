@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BBB55AFD1C8F8CBB0050DDA9"
-               BuildableName = "Xyzzy.framework"
-               BlueprintName = "tvOS"
-               ReferencedContainer = "container:Xyzzy.xcodeproj">
+               BlueprintIdentifier = "BBB55AD31C8F88F20050DDA9"
+               BuildableName = "FrameworkTemplate.framework"
+               BlueprintName = "OS X"
+               ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,20 +33,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BBB55B061C8F8CBB0050DDA9"
-               BuildableName = "Xyzzy-Test.xctest"
-               BlueprintName = "tvOS Tests"
-               ReferencedContainer = "container:Xyzzy.xcodeproj">
+               BlueprintIdentifier = "BBB55ADC1C8F88F20050DDA9"
+               BuildableName = "FrameworkTemplate-Test.xctest"
+               BlueprintName = "OS X Tests"
+               ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BBB55AFD1C8F8CBB0050DDA9"
-            BuildableName = "Xyzzy.framework"
-            BlueprintName = "tvOS"
-            ReferencedContainer = "container:Xyzzy.xcodeproj">
+            BlueprintIdentifier = "BBB55AD31C8F88F20050DDA9"
+            BuildableName = "FrameworkTemplate.framework"
+            BlueprintName = "OS X"
+            ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +65,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BBB55AFD1C8F8CBB0050DDA9"
-            BuildableName = "Xyzzy.framework"
-            BlueprintName = "tvOS"
-            ReferencedContainer = "container:Xyzzy.xcodeproj">
+            BlueprintIdentifier = "BBB55AD31C8F88F20050DDA9"
+            BuildableName = "FrameworkTemplate.framework"
+            BlueprintName = "OS X"
+            ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -83,10 +83,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BBB55AFD1C8F8CBB0050DDA9"
-            BuildableName = "Xyzzy.framework"
-            BlueprintName = "tvOS"
-            ReferencedContainer = "container:Xyzzy.xcodeproj">
+            BlueprintIdentifier = "BBB55AD31C8F88F20050DDA9"
+            BuildableName = "FrameworkTemplate.framework"
+            BlueprintName = "OS X"
+            ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
