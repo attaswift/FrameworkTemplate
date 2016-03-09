@@ -14,7 +14,7 @@ pattern="FrameworkTemplate"
 
 # Rename files and directories whose names contain the pattern.
 while true; do
-  source="$(find *  -iname "*$pattern*" | head -1)"
+  source="$(find .travis.yml *  -iname "*$pattern*" | head -1)"
   if [ "$source" == "" ]; then
     break 
   fi
