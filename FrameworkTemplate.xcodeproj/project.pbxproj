@@ -49,7 +49,7 @@
 		BBB55ABC1C8F80020050DDA9 /* FrameworkTemplate-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FrameworkTemplate-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB55AC11C8F80020050DDA9 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		BBB55AC31C8F80020050DDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBB55ACC1C8F80660050DDA9 /* config-shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "config-shared.xcconfig"; sourceTree = "<group>"; };
+		BBB55ACC1C8F80660050DDA9 /* version.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = version.xcconfig; sourceTree = "<group>"; };
 		BBB55AD41C8F88F20050DDA9 /* FrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB55ADD1C8F88F20050DDA9 /* FrameworkTemplate-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FrameworkTemplate-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB55AF11C8F8BE00050DDA9 /* FrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,7 +123,7 @@
 				BBB55B1E1C8F9E920050DDA9 /* README.md */,
 				BBB55B1D1C8F9E850050DDA9 /* LICENCE.md */,
 				BBB55B1C1C8F90F60050DDA9 /* .travis.yml */,
-				BBB55ACC1C8F80660050DDA9 /* config-shared.xcconfig */,
+				BBB55ACC1C8F80660050DDA9 /* version.xcconfig */,
 				BBB55AB41C8F80020050DDA9 /* Sources */,
 				BBB55AC01C8F80020050DDA9 /* Tests */,
 				BBB55AB31C8F80020050DDA9 /* Products */,
@@ -510,7 +510,7 @@
 /* Begin XCBuildConfiguration section */
 		BBB55AC41C8F80020050DDA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB55ACC1C8F80660050DDA9 /* config-shared.xcconfig */;
+			baseConfigurationReference = BBB55ACC1C8F80660050DDA9 /* version.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -557,7 +557,7 @@
 		};
 		BBB55AC51C8F80020050DDA9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB55ACC1C8F80660050DDA9 /* config-shared.xcconfig */;
+			baseConfigurationReference = BBB55ACC1C8F80660050DDA9 /* version.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;

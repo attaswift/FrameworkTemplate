@@ -1,5 +1,5 @@
 //
-//  config-shared.xcconfig
+//  version.xcconfig
 //
 //  Created by Károly Lőrentey on 2016-03-08.
 //  Copyright © 2016 Károly Lőrentey.
@@ -10,7 +10,7 @@ VERSION_STRING = 0.0.1
 BUILD_NUMBER = 1
 
 PROJECT_NAME = FrameworkTemplate
-BUNDLE_IDENTIFIER_BASE = hu.lorentey.FrameworkTemplate
+BUNDLE_IDENTIFIER_BASE = hu.lorentey.$(PROJECT_NAME)
 
 IPHONEOS_DEPLOYMENT_TARGET = 9.0
 MACOSX_DEPLOYMENT_TARGET = 10.10
