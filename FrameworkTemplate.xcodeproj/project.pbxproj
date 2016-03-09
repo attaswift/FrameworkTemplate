@@ -50,8 +50,6 @@
 		BBB55AC11C8F80020050DDA9 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		BBB55AC31C8F80020050DDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBB55ACC1C8F80660050DDA9 /* config-shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "config-shared.xcconfig"; sourceTree = "<group>"; };
-		BBB55ACD1C8F80740050DDA9 /* config-framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "config-framework.xcconfig"; sourceTree = "<group>"; };
-		BBB55ACE1C8F86670050DDA9 /* config-tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "config-tests.xcconfig"; sourceTree = "<group>"; };
 		BBB55AD41C8F88F20050DDA9 /* FrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB55ADD1C8F88F20050DDA9 /* FrameworkTemplate-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FrameworkTemplate-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB55AF11C8F8BE00050DDA9 /* FrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,8 +124,6 @@
 				BBB55B1D1C8F9E850050DDA9 /* LICENCE.md */,
 				BBB55B1C1C8F90F60050DDA9 /* .travis.yml */,
 				BBB55ACC1C8F80660050DDA9 /* config-shared.xcconfig */,
-				BBB55ACD1C8F80740050DDA9 /* config-framework.xcconfig */,
-				BBB55ACE1C8F86670050DDA9 /* config-tests.xcconfig */,
 				BBB55AB41C8F80020050DDA9 /* Sources */,
 				BBB55AC01C8F80020050DDA9 /* Tests */,
 				BBB55AB31C8F80020050DDA9 /* Products */,
@@ -532,7 +528,10 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "$(BUILD_NUMBER)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_COMPATIBILITY_VERSION = "$(BUILD_NUMBER)";
+				DYLIB_CURRENT_VERSION = "$(BUILD_NUMBER)";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -576,7 +575,10 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "$(BUILD_NUMBER)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "$(BUILD_NUMBER)";
+				DYLIB_CURRENT_VERSION = "$(BUILD_NUMBER)";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -596,14 +598,16 @@
 		};
 		BBB55AC71C8F80020050DDA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB55ACD1C8F80740050DDA9 /* config-framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_BASE).$(PLATFORM_DISPLAY_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -613,14 +617,16 @@
 		};
 		BBB55AC81C8F80020050DDA9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB55ACD1C8F80740050DDA9 /* config-framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_BASE).$(PLATFORM_DISPLAY_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -629,33 +635,39 @@
 		};
 		BBB55ACA1C8F80020050DDA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB55ACE1C8F86670050DDA9 /* config-tests.xcconfig */;
 			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_BASE).Tests";
+				PRODUCT_NAME = "$(PROJECT_NAME)-Test";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
 		BBB55ACB1C8F80020050DDA9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB55ACE1C8F86670050DDA9 /* config-tests.xcconfig */;
 			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_BASE).Tests";
+				PRODUCT_NAME = "$(PROJECT_NAME)-Test";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
 		BBB55AE61C8F88F20050DDA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB55ACD1C8F80740050DDA9 /* config-framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_BASE).$(PLATFORM_DISPLAY_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -664,15 +676,17 @@
 		};
 		BBB55AE71C8F88F20050DDA9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB55ACD1C8F80740050DDA9 /* config-framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_BASE).$(PLATFORM_DISPLAY_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -680,33 +694,39 @@
 		};
 		BBB55AE91C8F88F20050DDA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB55ACE1C8F86670050DDA9 /* config-tests.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_BASE).Tests";
+				PRODUCT_NAME = "$(PROJECT_NAME)-Test";
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		BBB55AEA1C8F88F20050DDA9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB55ACE1C8F86670050DDA9 /* config-tests.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_BASE).Tests";
+				PRODUCT_NAME = "$(PROJECT_NAME)-Test";
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
 		BBB55AF71C8F8BE00050DDA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB55ACD1C8F80740050DDA9 /* config-framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_BASE).$(PLATFORM_DISPLAY_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -716,13 +736,15 @@
 		};
 		BBB55AF81C8F8BE00050DDA9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB55ACD1C8F80740050DDA9 /* config-framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_BASE).$(PLATFORM_DISPLAY_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -731,13 +753,15 @@
 		};
 		BBB55B101C8F8CBC0050DDA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB55ACD1C8F80740050DDA9 /* config-framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_BASE).$(PLATFORM_DISPLAY_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -747,13 +771,15 @@
 		};
 		BBB55B111C8F8CBC0050DDA9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB55ACD1C8F80740050DDA9 /* config-framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_BASE).$(PLATFORM_DISPLAY_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -762,18 +788,22 @@
 		};
 		BBB55B131C8F8CBC0050DDA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB55ACE1C8F86670050DDA9 /* config-tests.xcconfig */;
 			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_BASE).Tests";
+				PRODUCT_NAME = "$(PROJECT_NAME)-Test";
 				SDKROOT = appletvos;
 			};
 			name = Debug;
 		};
 		BBB55B141C8F8CBC0050DDA9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB55ACE1C8F86670050DDA9 /* config-tests.xcconfig */;
 			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_BASE).Tests";
+				PRODUCT_NAME = "$(PROJECT_NAME)-Test";
 				SDKROOT = appletvos;
 			};
 			name = Release;
