@@ -14,7 +14,7 @@ pattern="FrameworkTemplate"
 
 # Rename files and directories whose names contain the pattern.
 while true; do
-  source="$(find .travis.yml *  -iname "*$pattern*" | head -1)"
+  source="$(find *  -iname "*$pattern*" | head -1)"
   if [ "$source" == "" ]; then
     break 
   fi
@@ -27,7 +27,7 @@ done
 rm -rf *.xcodeproj/project.xcworkspace/xcuserdata
 
 # Replace occurances of the pattern in all files.
-grep -rl "$pattern" * | while read file; do 
+grep -rl "$pattern" .travis.yml * | while read file; do 
   echo "Updating $file"
   sed -i "" "s/$pattern/$name/g" "$file"
 done
