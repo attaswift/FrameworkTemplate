@@ -334,9 +334,11 @@
 				TargetAttributes = {
 					BBB55AB11C8F80020050DDA9 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 					BBB55ABB1C8F80020050DDA9 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 					BBB55AD31C8F88F20050DDA9 = {
 						CreatedOnToolsVersion = 7.3;
@@ -550,7 +552,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DDebug";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
@@ -591,6 +595,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 				VERSION_INFO_PREFIX = "";
 			};
@@ -642,6 +647,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_BASE).Tests";
 				PRODUCT_NAME = "$(PROJECT_NAME)-Test";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -654,6 +660,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_BASE).Tests";
 				PRODUCT_NAME = "$(PROJECT_NAME)-Test";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
