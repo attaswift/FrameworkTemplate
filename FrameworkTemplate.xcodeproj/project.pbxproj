@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB241BC61DD9F64A0067F917 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB241BC51DD9F6490067F917 /* Package.swift */; };
 		BBB55ABD1C8F80020050DDA9 /* FrameworkTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB55AB21C8F80020050DDA9 /* FrameworkTemplate.framework */; };
 		BBB55AC21C8F80020050DDA9 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB55AC11C8F80020050DDA9 /* Tests.swift */; };
 		BBB55ADE1C8F88F20050DDA9 /* FrameworkTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB55AD41C8F88F20050DDA9 /* FrameworkTemplate.framework */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB241BC51DD9F6490067F917 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		BBB55AB21C8F80020050DDA9 /* FrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB55AB71C8F80020050DDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBB55ABC1C8F80020050DDA9 /* FrameworkTemplate-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FrameworkTemplate-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +124,7 @@
 			children = (
 				BBB55B1E1C8F9E920050DDA9 /* README.md */,
 				BBB55B1D1C8F9E850050DDA9 /* LICENCE.md */,
+				BB241BC51DD9F6490067F917 /* Package.swift */,
 				BBB55B1C1C8F90F60050DDA9 /* .travis.yml */,
 				BBB55ACC1C8F80660050DDA9 /* version.xcconfig */,
 				BBB55AB41C8F80020050DDA9 /* Sources */,
@@ -437,6 +440,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB241BC61DD9F64A0067F917 /* Package.swift in Sources */,
 				BBB55B181C8F901A0050DDA9 /* Implementation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
