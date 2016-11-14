@@ -162,7 +162,8 @@
 				BBB55AC11C8F80020050DDA9 /* Tests.swift */,
 				BBB55AC31C8F80020050DDA9 /* Info.plist */,
 			);
-			path = Tests;
+			name = Tests;
+			path = Tests/FrameworkTemplateTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
