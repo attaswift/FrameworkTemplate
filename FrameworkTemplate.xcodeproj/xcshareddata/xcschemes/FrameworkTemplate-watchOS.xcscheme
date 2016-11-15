@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BBB55AF01C8F8BE00050DDA9"
                BuildableName = "FrameworkTemplate.framework"
-               BlueprintName = "watchOS"
+               BlueprintName = "FrameworkTemplate-watchOS"
                ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,7 +47,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBB55AF01C8F8BE00050DDA9"
             BuildableName = "FrameworkTemplate.framework"
-            BlueprintName = "watchOS"
+            BlueprintName = "FrameworkTemplate-watchOS"
             ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,7 +65,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBB55AF01C8F8BE00050DDA9"
             BuildableName = "FrameworkTemplate.framework"
-            BlueprintName = "watchOS"
+            BlueprintName = "FrameworkTemplate-watchOS"
             ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

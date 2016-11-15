@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BBB55AFD1C8F8CBB0050DDA9"
                BuildableName = "FrameworkTemplate.framework"
-               BlueprintName = "tvOS"
+               BlueprintName = "FrameworkTemplate-tvOS"
                ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -35,7 +35,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BBB55B061C8F8CBB0050DDA9"
                BuildableName = "FrameworkTemplate-Test.xctest"
-               BlueprintName = "tvOS Tests"
+               BlueprintName = "FrameworkTemplate tvOS Tests"
                ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -45,7 +45,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBB55AFD1C8F8CBB0050DDA9"
             BuildableName = "FrameworkTemplate.framework"
-            BlueprintName = "tvOS"
+            BlueprintName = "FrameworkTemplate-tvOS"
             ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -67,7 +67,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBB55AFD1C8F8CBB0050DDA9"
             BuildableName = "FrameworkTemplate.framework"
-            BlueprintName = "tvOS"
+            BlueprintName = "FrameworkTemplate-tvOS"
             ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -85,7 +85,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBB55AFD1C8F8CBB0050DDA9"
             BuildableName = "FrameworkTemplate.framework"
-            BlueprintName = "tvOS"
+            BlueprintName = "FrameworkTemplate-tvOS"
             ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

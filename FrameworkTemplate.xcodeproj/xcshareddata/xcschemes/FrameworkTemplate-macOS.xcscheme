@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BBB55AD31C8F88F20050DDA9"
                BuildableName = "FrameworkTemplate.framework"
-               BlueprintName = "macOS"
+               BlueprintName = "FrameworkTemplate-macOS"
                ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -35,7 +35,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BBB55ADC1C8F88F20050DDA9"
                BuildableName = "FrameworkTemplate-Test.xctest"
-               BlueprintName = "macOS Tests"
+               BlueprintName = "FrameworkTemplate macOS Tests"
                ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -45,7 +45,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBB55AD31C8F88F20050DDA9"
             BuildableName = "FrameworkTemplate.framework"
-            BlueprintName = "macOS"
+            BlueprintName = "FrameworkTemplate-macOS"
             ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -67,7 +67,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBB55AD31C8F88F20050DDA9"
             BuildableName = "FrameworkTemplate.framework"
-            BlueprintName = "macOS"
+            BlueprintName = "FrameworkTemplate-macOS"
             ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -85,7 +85,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBB55AD31C8F88F20050DDA9"
             BuildableName = "FrameworkTemplate.framework"
-            BlueprintName = "macOS"
+            BlueprintName = "FrameworkTemplate-macOS"
             ReferencedContainer = "container:FrameworkTemplate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

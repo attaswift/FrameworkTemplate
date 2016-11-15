@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		BBB55ABD1C8F80020050DDA9 /* FrameworkTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB55AB21C8F80020050DDA9 /* FrameworkTemplate.framework */; };
-		BBB55AC21C8F80020050DDA9 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB55AC11C8F80020050DDA9 /* Tests.swift */; };
+		BBB55AC21C8F80020050DDA9 /* FrameworkTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB55AC11C8F80020050DDA9 /* FrameworkTemplateTests.swift */; };
 		BBB55ADE1C8F88F20050DDA9 /* FrameworkTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB55AD41C8F88F20050DDA9 /* FrameworkTemplate.framework */; };
 		BBB55B081C8F8CBC0050DDA9 /* FrameworkTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB55AFE1C8F8CBB0050DDA9 /* FrameworkTemplate.framework */; };
-		BBB55B151C8F8FE70050DDA9 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB55AC11C8F80020050DDA9 /* Tests.swift */; };
-		BBB55B161C8F8FE80050DDA9 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB55AC11C8F80020050DDA9 /* Tests.swift */; };
+		BBB55B151C8F8FE70050DDA9 /* FrameworkTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB55AC11C8F80020050DDA9 /* FrameworkTemplateTests.swift */; };
+		BBB55B161C8F8FE80050DDA9 /* FrameworkTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB55AC11C8F80020050DDA9 /* FrameworkTemplateTests.swift */; };
 		BBB55B181C8F901A0050DDA9 /* Implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB55B171C8F901A0050DDA9 /* Implementation.swift */; };
 		BBB55B191C8F901A0050DDA9 /* Implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB55B171C8F901A0050DDA9 /* Implementation.swift */; };
 		BBB55B1A1C8F901A0050DDA9 /* Implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB55B171C8F901A0050DDA9 /* Implementation.swift */; };
@@ -49,7 +49,7 @@
 		BBB55AB21C8F80020050DDA9 /* FrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB55AB71C8F80020050DDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBB55ABC1C8F80020050DDA9 /* FrameworkTemplate-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FrameworkTemplate-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBB55AC11C8F80020050DDA9 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		BBB55AC11C8F80020050DDA9 /* FrameworkTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTemplateTests.swift; sourceTree = "<group>"; };
 		BBB55AC31C8F80020050DDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBB55ACC1C8F80660050DDA9 /* version.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = version.xcconfig; sourceTree = "<group>"; };
 		BBB55AD41C8F88F20050DDA9 /* FrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,7 +59,7 @@
 		BBB55B071C8F8CBB0050DDA9 /* FrameworkTemplate-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FrameworkTemplate-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB55B171C8F901A0050DDA9 /* Implementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Implementation.swift; sourceTree = "<group>"; };
 		BBB55B1C1C8F90F60050DDA9 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
-		BBB55B1D1C8F9E850050DDA9 /* LICENCE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENCE.md; sourceTree = "<group>"; };
+		BBB55B1D1C8F9E850050DDA9 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		BBB55B1E1C8F9E920050DDA9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,7 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				BBB55B1E1C8F9E920050DDA9 /* README.md */,
-				BBB55B1D1C8F9E850050DDA9 /* LICENCE.md */,
+				BBB55B1D1C8F9E850050DDA9 /* LICENSE.md */,
 				BB241BC51DD9F6490067F917 /* Package.swift */,
 				BB241BC71DD9F7D60067F917 /* FrameworkTemplate.podspec */,
 				BBB55B1C1C8F90F60050DDA9 /* .travis.yml */,
@@ -160,7 +160,7 @@
 		BBB55AC01C8F80020050DDA9 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				BBB55AC11C8F80020050DDA9 /* Tests.swift */,
+				BBB55AC11C8F80020050DDA9 /* FrameworkTemplateTests.swift */,
 				BBB55AC31C8F80020050DDA9 /* Info.plist */,
 			);
 			name = Tests;
@@ -201,9 +201,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BBB55AB11C8F80020050DDA9 /* iOS */ = {
+		BBB55AB11C8F80020050DDA9 /* FrameworkTemplate-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBB55AC61C8F80020050DDA9 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildConfigurationList = BBB55AC61C8F80020050DDA9 /* Build configuration list for PBXNativeTarget "FrameworkTemplate-iOS" */;
 			buildPhases = (
 				BBB55AAD1C8F80020050DDA9 /* Sources */,
 				BBB55AAE1C8F80020050DDA9 /* Frameworks */,
@@ -214,14 +214,14 @@
 			);
 			dependencies = (
 			);
-			name = iOS;
+			name = "FrameworkTemplate-iOS";
 			productName = FrameworkTemplate;
 			productReference = BBB55AB21C8F80020050DDA9 /* FrameworkTemplate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BBB55ABB1C8F80020050DDA9 /* iOS Tests */ = {
+		BBB55ABB1C8F80020050DDA9 /* FrameworkTemplate iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBB55AC91C8F80020050DDA9 /* Build configuration list for PBXNativeTarget "iOS Tests" */;
+			buildConfigurationList = BBB55AC91C8F80020050DDA9 /* Build configuration list for PBXNativeTarget "FrameworkTemplate iOS Tests" */;
 			buildPhases = (
 				BBB55AB81C8F80020050DDA9 /* Sources */,
 				BBB55AB91C8F80020050DDA9 /* Frameworks */,
@@ -232,14 +232,14 @@
 			dependencies = (
 				BBB55ABF1C8F80020050DDA9 /* PBXTargetDependency */,
 			);
-			name = "iOS Tests";
+			name = "FrameworkTemplate iOS Tests";
 			productName = FrameworkTemplateTests;
 			productReference = BBB55ABC1C8F80020050DDA9 /* FrameworkTemplate-Test.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BBB55AD31C8F88F20050DDA9 /* macOS */ = {
+		BBB55AD31C8F88F20050DDA9 /* FrameworkTemplate-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBB55AE51C8F88F20050DDA9 /* Build configuration list for PBXNativeTarget "macOS" */;
+			buildConfigurationList = BBB55AE51C8F88F20050DDA9 /* Build configuration list for PBXNativeTarget "FrameworkTemplate-macOS" */;
 			buildPhases = (
 				BBB55ACF1C8F88F20050DDA9 /* Sources */,
 				BBB55AD01C8F88F20050DDA9 /* Frameworks */,
@@ -250,14 +250,14 @@
 			);
 			dependencies = (
 			);
-			name = macOS;
+			name = "FrameworkTemplate-macOS";
 			productName = FrameworkTemplate;
 			productReference = BBB55AD41C8F88F20050DDA9 /* FrameworkTemplate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BBB55ADC1C8F88F20050DDA9 /* macOS Tests */ = {
+		BBB55ADC1C8F88F20050DDA9 /* FrameworkTemplate macOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBB55AE81C8F88F20050DDA9 /* Build configuration list for PBXNativeTarget "macOS Tests" */;
+			buildConfigurationList = BBB55AE81C8F88F20050DDA9 /* Build configuration list for PBXNativeTarget "FrameworkTemplate macOS Tests" */;
 			buildPhases = (
 				BBB55AD91C8F88F20050DDA9 /* Sources */,
 				BBB55ADA1C8F88F20050DDA9 /* Frameworks */,
@@ -268,14 +268,14 @@
 			dependencies = (
 				BBB55AE01C8F88F20050DDA9 /* PBXTargetDependency */,
 			);
-			name = "macOS Tests";
+			name = "FrameworkTemplate macOS Tests";
 			productName = FrameworkTemplateTests;
 			productReference = BBB55ADD1C8F88F20050DDA9 /* FrameworkTemplate-Test.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BBB55AF01C8F8BE00050DDA9 /* watchOS */ = {
+		BBB55AF01C8F8BE00050DDA9 /* FrameworkTemplate-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBB55AF61C8F8BE00050DDA9 /* Build configuration list for PBXNativeTarget "watchOS" */;
+			buildConfigurationList = BBB55AF61C8F8BE00050DDA9 /* Build configuration list for PBXNativeTarget "FrameworkTemplate-watchOS" */;
 			buildPhases = (
 				BBB55AEC1C8F8BE00050DDA9 /* Sources */,
 				BBB55AED1C8F8BE00050DDA9 /* Frameworks */,
@@ -286,14 +286,14 @@
 			);
 			dependencies = (
 			);
-			name = watchOS;
+			name = "FrameworkTemplate-watchOS";
 			productName = FrameworkTemplate;
 			productReference = BBB55AF11C8F8BE00050DDA9 /* FrameworkTemplate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BBB55AFD1C8F8CBB0050DDA9 /* tvOS */ = {
+		BBB55AFD1C8F8CBB0050DDA9 /* FrameworkTemplate-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBB55B0F1C8F8CBC0050DDA9 /* Build configuration list for PBXNativeTarget "tvOS" */;
+			buildConfigurationList = BBB55B0F1C8F8CBC0050DDA9 /* Build configuration list for PBXNativeTarget "FrameworkTemplate-tvOS" */;
 			buildPhases = (
 				BBB55AF91C8F8CBB0050DDA9 /* Sources */,
 				BBB55AFA1C8F8CBB0050DDA9 /* Frameworks */,
@@ -304,14 +304,14 @@
 			);
 			dependencies = (
 			);
-			name = tvOS;
+			name = "FrameworkTemplate-tvOS";
 			productName = FrameworkTemplate;
 			productReference = BBB55AFE1C8F8CBB0050DDA9 /* FrameworkTemplate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BBB55B061C8F8CBB0050DDA9 /* tvOS Tests */ = {
+		BBB55B061C8F8CBB0050DDA9 /* FrameworkTemplate tvOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBB55B121C8F8CBC0050DDA9 /* Build configuration list for PBXNativeTarget "tvOS Tests" */;
+			buildConfigurationList = BBB55B121C8F8CBC0050DDA9 /* Build configuration list for PBXNativeTarget "FrameworkTemplate tvOS Tests" */;
 			buildPhases = (
 				BBB55B031C8F8CBB0050DDA9 /* Sources */,
 				BBB55B041C8F8CBB0050DDA9 /* Frameworks */,
@@ -322,7 +322,7 @@
 			dependencies = (
 				BBB55B0A1C8F8CBC0050DDA9 /* PBXTargetDependency */,
 			);
-			name = "tvOS Tests";
+			name = "FrameworkTemplate tvOS Tests";
 			productName = FrameworkTemplateTests;
 			productReference = BBB55B071C8F8CBB0050DDA9 /* FrameworkTemplate-Test.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -374,13 +374,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBB55AB11C8F80020050DDA9 /* iOS */,
-				BBB55AD31C8F88F20050DDA9 /* macOS */,
-				BBB55AF01C8F8BE00050DDA9 /* watchOS */,
-				BBB55AFD1C8F8CBB0050DDA9 /* tvOS */,
-				BBB55ABB1C8F80020050DDA9 /* iOS Tests */,
-				BBB55ADC1C8F88F20050DDA9 /* macOS Tests */,
-				BBB55B061C8F8CBB0050DDA9 /* tvOS Tests */,
+				BBB55AB11C8F80020050DDA9 /* FrameworkTemplate-iOS */,
+				BBB55AD31C8F88F20050DDA9 /* FrameworkTemplate-macOS */,
+				BBB55AF01C8F8BE00050DDA9 /* FrameworkTemplate-watchOS */,
+				BBB55AFD1C8F8CBB0050DDA9 /* FrameworkTemplate-tvOS */,
+				BBB55ABB1C8F80020050DDA9 /* FrameworkTemplate iOS Tests */,
+				BBB55ADC1C8F88F20050DDA9 /* FrameworkTemplate macOS Tests */,
+				BBB55B061C8F8CBB0050DDA9 /* FrameworkTemplate tvOS Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -450,7 +450,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBB55AC21C8F80020050DDA9 /* Tests.swift in Sources */,
+				BBB55AC21C8F80020050DDA9 /* FrameworkTemplateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBB55B151C8F8FE70050DDA9 /* Tests.swift in Sources */,
+				BBB55B151C8F8FE70050DDA9 /* FrameworkTemplateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,7 +490,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBB55B161C8F8FE80050DDA9 /* Tests.swift in Sources */,
+				BBB55B161C8F8FE80050DDA9 /* FrameworkTemplateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,17 +499,17 @@
 /* Begin PBXTargetDependency section */
 		BBB55ABF1C8F80020050DDA9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BBB55AB11C8F80020050DDA9 /* iOS */;
+			target = BBB55AB11C8F80020050DDA9 /* FrameworkTemplate-iOS */;
 			targetProxy = BBB55ABE1C8F80020050DDA9 /* PBXContainerItemProxy */;
 		};
 		BBB55AE01C8F88F20050DDA9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BBB55AD31C8F88F20050DDA9 /* macOS */;
+			target = BBB55AD31C8F88F20050DDA9 /* FrameworkTemplate-macOS */;
 			targetProxy = BBB55ADF1C8F88F20050DDA9 /* PBXContainerItemProxy */;
 		};
 		BBB55B0A1C8F8CBC0050DDA9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BBB55AFD1C8F8CBB0050DDA9 /* tvOS */;
+			target = BBB55AFD1C8F8CBB0050DDA9 /* FrameworkTemplate-tvOS */;
 			targetProxy = BBB55B091C8F8CBC0050DDA9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -848,7 +848,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBB55AC61C8F80020050DDA9 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+		BBB55AC61C8F80020050DDA9 /* Build configuration list for PBXNativeTarget "FrameworkTemplate-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBB55AC71C8F80020050DDA9 /* Debug */,
@@ -857,7 +857,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBB55AC91C8F80020050DDA9 /* Build configuration list for PBXNativeTarget "iOS Tests" */ = {
+		BBB55AC91C8F80020050DDA9 /* Build configuration list for PBXNativeTarget "FrameworkTemplate iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBB55ACA1C8F80020050DDA9 /* Debug */,
@@ -866,7 +866,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBB55AE51C8F88F20050DDA9 /* Build configuration list for PBXNativeTarget "macOS" */ = {
+		BBB55AE51C8F88F20050DDA9 /* Build configuration list for PBXNativeTarget "FrameworkTemplate-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBB55AE61C8F88F20050DDA9 /* Debug */,
@@ -875,7 +875,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBB55AE81C8F88F20050DDA9 /* Build configuration list for PBXNativeTarget "macOS Tests" */ = {
+		BBB55AE81C8F88F20050DDA9 /* Build configuration list for PBXNativeTarget "FrameworkTemplate macOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBB55AE91C8F88F20050DDA9 /* Debug */,
@@ -884,7 +884,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBB55AF61C8F8BE00050DDA9 /* Build configuration list for PBXNativeTarget "watchOS" */ = {
+		BBB55AF61C8F8BE00050DDA9 /* Build configuration list for PBXNativeTarget "FrameworkTemplate-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBB55AF71C8F8BE00050DDA9 /* Debug */,
@@ -893,7 +893,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBB55B0F1C8F8CBC0050DDA9 /* Build configuration list for PBXNativeTarget "tvOS" */ = {
+		BBB55B0F1C8F8CBC0050DDA9 /* Build configuration list for PBXNativeTarget "FrameworkTemplate-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBB55B101C8F8CBC0050DDA9 /* Debug */,
@@ -902,7 +902,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBB55B121C8F8CBC0050DDA9 /* Build configuration list for PBXNativeTarget "tvOS Tests" */ = {
+		BBB55B121C8F8CBC0050DDA9 /* Build configuration list for PBXNativeTarget "FrameworkTemplate tvOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBB55B131C8F8CBC0050DDA9 /* Debug */,

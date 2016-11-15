@@ -1,5 +1,5 @@
 //
-//  Tests.swift
+//  FrameworkTemplateTests.swift
 //  FrameworkTemplate
 //
 //  Created by Károly Lőrentey on 2016-03-08.
