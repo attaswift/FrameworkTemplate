@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode8
+osx_image: xcode8.1
 script:
 - xcrun xcodebuild -project FrameworkTemplate.xcodeproj -scheme FrameworkTemplate-macOS test
 - xcrun xcodebuild -project FrameworkTemplate.xcodeproj -scheme FrameworkTemplate-iOS
