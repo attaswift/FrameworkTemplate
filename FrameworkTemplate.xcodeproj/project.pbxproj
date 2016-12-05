@@ -44,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB086D9E1DF5AEF400CBF8BB /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		BB241BC51DD9F6490067F917 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		BB241BC71DD9F7D60067F917 /* FrameworkTemplate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = FrameworkTemplate.podspec; sourceTree = "<group>"; };
 		BBB55AB21C8F80020050DDA9 /* FrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				BBB55B1E1C8F9E920050DDA9 /* README.md */,
+				BB086D9E1DF5AEF400CBF8BB /* CHANGELOG.md */,
 				BBB55B1D1C8F9E850050DDA9 /* LICENSE.md */,
 				BB241BC51DD9F6490067F917 /* Package.swift */,
 				BB241BC71DD9F7D60067F917 /* FrameworkTemplate.podspec */,
